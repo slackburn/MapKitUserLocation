@@ -43,6 +43,9 @@
                                 <state key="normal" title="Find Location">
                                     <color key="titleColor" red="0.18039215689999999" green="0.52549019610000003" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="findLocationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ZF-bJ-Akg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -62,6 +65,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="displayLocationLabel" destination="g8W-hv-m3X" id="EXe-3e-e2d"/>
+                        <outlet property="map" destination="FjD-er-dIS" id="QFG-to-otV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

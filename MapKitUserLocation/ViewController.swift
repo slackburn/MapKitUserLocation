@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var displayLocationLabel: UILabel!
+    @IBOutlet weak var map: MKMapView!
+    
+    @IBAction func findLocationButtonPressed(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
